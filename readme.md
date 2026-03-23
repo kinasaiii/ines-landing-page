@@ -20,6 +20,9 @@ This project is a **link-in-bio style landing page** created for a business to s
 
 # Preview
   
+<img src = "ines-elegance1.png" width = "300">
+![Preview](ines-elegance2.png)
+  
 # Usage and license
   
 This project is NOT open source, you are allowed to:
