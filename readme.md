@@ -36,7 +36,7 @@ You are NOT allowed to:
   
 All rights are reserved by the author.
   
-See the `LICENSE` file for more details.
+See the [license](LICENSE) file for more details.
 
 # Author
   
