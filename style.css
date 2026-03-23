@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: var(--text);
+    color: var(--text);  
 }
 
 .container {
@@ -43,6 +43,11 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
 
 h1 {
@@ -75,10 +80,11 @@ a {
     color: var(--text);
     border: 1px solid var(--gold-soft);
     border-radius: 7px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.5px;
     transition: all 0.3s ease;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
 }
 
 a:hover {
@@ -110,6 +116,7 @@ a:active {
     font-size: 14px;
     font-weight: 400;
     opacity: 0.85;
+    letter-spacing: 0.5px;
 }
 
 .developer {
@@ -119,4 +126,48 @@ a:active {
     margin-top: 30px;
     font-weight: 200;
     letter-spacing: 1px;
+}
+
+@media (max-width: 450px) {
+    body {
+        padding: 40px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 30px 20px 20px 20px;
+        max-width: 350px;
+    }
+
+    img {
+        width: 130px;
+        height: 130px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .tagline {
+        font-size: 12px;
+        letter-spacing: -0.2px;
+    }
+
+    a {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .location {
+        font-size: 12px;
+    }
+
+    .developer {
+        font-size: 10px;
+    }
 }
