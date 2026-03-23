@@ -20,8 +20,8 @@ This project is a **link-in-bio style landing page** created for a business to s
 
 # Preview
   
-<img src = "ines-elegance1.png" width = "300">
-![Preview](ines-elegance2.png)
+<img src = "ines-elegance1.png" width = "500">
+<img src = "ines-elegance2.png" width = "500">
   
 # Usage and license
   
